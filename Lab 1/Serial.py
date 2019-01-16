@@ -6,8 +6,8 @@ class Student:
 
 Student1 = Student("Sita", 26)
 Student2 = Student("Gita", 24)
-print(Student1.name)
-print(Student2.name)
+print "First students name : ", Student1.name
+print "Second students name : ",Student2.name
 pickled_S1=pickle.dumps(Student1)
 pickled_S2=pickle.dumps(Student2)
 print("The serialised objects look like this")
@@ -27,14 +27,7 @@ unpickled_S2 = pickle.loads(buff2)
 print(unpickled_S1)
 print(unpickled_S2)
 print("extracted data looks like this : ")
-print("Student1 name : ")
-print(unpickled_S1.name)
-print("Student1 age : ")
-print(unpickled_S1.age)
-print("Student2 name : ")
-print(unpickled_S2.name)
-print("Student2 age : ")
-print(unpickled_S2.age)
-#unpickled_S1=pickle.loads(pickled_S1)
-#print("Unserialised object looks like this")
-#print(unpickled_S1)
+print "Student1 name : ", unpickled_S1.name
+print "Student1 age : ", unpickled_S1.age
+print"Student2 name : ", unpickled_S2.name
+print"Student2 age : ", unpickled_S2.age
