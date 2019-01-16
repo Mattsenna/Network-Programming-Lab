@@ -1,1 +1,1 @@
-This repo will be used for the Network Programming Lab course, B.Tech 8th Sem at NITR, AY 2018-19
+This repo will be used for the Network Programming Lab course, B.Tech/M.Tech Dual Degree 8th Sem at NITR, AY 2018-19
